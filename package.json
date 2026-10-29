@@ -1,0 +1,9 @@
+{
+  "name": "card-clash-multiplayer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Card Clash 1v1 online with private room codes and host-authoritative physics",
+  "scripts": {"start":"node server.js", "test":"node tests/smoke.test.js && node tests/server.test.js"},
+  "engines": {"node":">=20"},
+  "dependencies": {"ws":"^8.18.0"}
+}
